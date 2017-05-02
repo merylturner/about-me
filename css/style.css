@@ -6,8 +6,14 @@ h1 {
     text-align: center;
     padding: 10px;
 }
-p {
+div {
     font-family: Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
+    color: white;
     text-align: center;
+    background-color: lightblue;
+    width: 500px;
+    display; block;
+    margin: auto;
+    padding: 50px;
 }

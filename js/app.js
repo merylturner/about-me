@@ -1,7 +1,11 @@
 'use strict';
-var name = confirm("Is my name Meryl Turner? ");
-console.log(name.toUpperCase());
-var live = confirm("Do I live in Portland, Oregon?");
-var outdoors = confirm("Do I like the outdoors?");
-var coffee = confirm("Do I drink too much coffee?");
-var coding = confirm("Do I love to code?");
+var name = prompt("Is my name Meryl Turner? ");
+    console.log(name.toUpperCase());
+var live = prompt("Do I live in Portland, Oregon?");
+    console.log(live.toUpperCase());
+var outdoors = prompt("Do I like the outdoors?");
+    console.log(outdoors.toUpperCase());
+var coffee = prompt("Do I drink too much coffee?");
+    console.log(coffee.toUpperCase());
+var coding = prompt("Do I love to code?");
+    console.log(coding.toUpperCase());
