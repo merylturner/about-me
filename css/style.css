@@ -10,7 +10,7 @@ h1 {
     padding: 10px;
 }
 
-div {
+.questions {
     font-family: inherit;
     font-size: 20px;
     color: white;
@@ -21,9 +21,7 @@ div {
     margin: auto;
     padding: 50px;
 }
-b {
-    color: black;
-}
+
 p:first-child {
     color: black;
     font-weight: bold;
