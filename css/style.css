@@ -1,19 +1,30 @@
-h1 {
+body {
     font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-family: inherit;
     font-size: 40px;
     color:white;
     background-color: black;
     text-align: center;
     padding: 10px;
 }
+
 div {
-    font-family: Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: inherit;
+    font-size: 20px;
     color: white;
-    text-align: center;
+    text-align: left;
     background-color: lightblue;
     width: 500px;
     display; block;
     margin: auto;
     padding: 50px;
+}
+b {
+    color: black;
+}
+p:first-child {
+    color: black;
+    font-weight: bold;
 }
