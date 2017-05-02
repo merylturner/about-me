@@ -1,0 +1,13 @@
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
