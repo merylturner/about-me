@@ -46,9 +46,10 @@
 // }
 // console.log('5th Question: ' + coding.toUpperCase());
 
+
 //User is prompted to answer the question 'what is my favorite number' with four guesses
 for (var i = 0; i < 4; i++) {
-var guess = prompt('What is my favorite number?');
+var guess = parseInt(prompt('What is my favorite number?'));
 	if (guess === 8) {
 		alert('You are correct!');
 		break;
@@ -63,23 +64,27 @@ var guess = prompt('What is my favorite number?');
 	}
 }
 
-var cities = ['Portland', 'Bend', 'Redlands']; //cities.length 3
+var cities = ['portland', 'bend', 'redlands']; //cities.length 3
 
 //TODO check if citiesGuesses matches one of the elements in the cities array
-for (i = 0; i < 6; i++) {
-	citiesGuess = prompt('What cities have I lived in? There are multiple correct answers. You have six guesses. Good luck!');
+// for (i = 0; i < 6; i++) {
+// 	var citiesGuess = prompt('What cities have I lived in? There are multiple correct answers. You have six guesses. Good luck!');
 
-	for (i = 0; i < cities.length; i++){
-		console.log('Their guess is: ', citiesGuess);
+// 	for (i = 0; i < cities.length; i++){
+// 		console.log('Their guess is: ', citiesGuess);
 	
-	if (citiesGuess === cities[i]){
-		alert('You guessed right!');
-	}
-	else {
-		alert('Guess again!');
-	}
-	}
-}
+// 		if (citiesGuess === cities[i]){
+// 			alert('You guessed right!');
+// 		break;
+// 	}
+	
+// 		if (i = cities.length - 1){
+// 		alert('Nope, guess again!');
+// 		}
+// 	}
+	
+// }
+// 		alert(cities[i]);
 
 // STRETCH GOALS Creating arrays for the questions, answers and respones
 
