@@ -16,13 +16,29 @@ h1 {
     color: white;
     text-align: left;
     background-color: lightblue;
-    width: 500px;
+    /*width: 500px;*/
     display: block;
-    margin: auto;
+    margin: 100px;
     padding: 50px;
+    /*display: inline;*/
 }
 
 p:first-child {
     color: black;
     font-weight: bold;
+}
+.lists {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    background-color: lightseagreen;
+    margin: 100px;
+    padding: 50px;  
+
+}
+h3 {
+    font-style: bold;
+    color: white;
+    width: 100px;
 }
