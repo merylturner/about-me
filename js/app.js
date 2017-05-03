@@ -48,43 +48,45 @@
 
 
 //User is prompted to answer the question 'what is my favorite number' with four guesses
-for (var i = 0; i < 4; i++) {
-var guess = parseInt(prompt('What is my favorite number?'));
-	if (guess === 8) {
-		alert('You are correct!');
-		break;
-	}
-	else if (guess > 8) {
-		alert('Too high. Guess again!');
-		console.log(guess);
-	}
-	else {
-		alert('Too low. Try again.');
-		console.log(guess);
-	}
-}
+// for (var i = 0; i < 4; i++) {
+// var guess = parseInt(prompt('What is my favorite number?'));
+// 	if (guess === 8) {
+// 		alert('You are correct!');
+// 		break;
+// 	}
+// 	else if (guess > 8) {
+// 		alert('Too high. Guess again!');
+// 		console.log(guess);
+// 	}
+// 	else {
+// 		alert('Too low. Try again.');
+// 		console.log(guess);
+// 	}
+// }
 
 var cities = ['portland', 'bend', 'redlands']; //cities.length 3
 
-//TODO check if citiesGuesses matches one of the elements in the cities array
-// for (i = 0; i < 6; i++) {
-// 	var citiesGuess = prompt('What cities have I lived in? There are multiple correct answers. You have six guesses. Good luck!');
+// TODO check if citiesGuesses matches one of the elements in the cities array
+for (var i = 0; i < 6; i++) {
+	var citiesGuess = prompt('What cities have I lived in? There are multiple correct answers. You have six guesses. Good luck!');
+	console.log('LOOP 1: We are on guess #: ', i + 1);
 
-// 	for (i = 0; i < cities.length; i++){
-// 		console.log('Their guess is: ', citiesGuess);
+	for (var j = 0; j < cities.length; j++){
+		console.log('LOOP 2: We are looking the ', j, 'of cities. its data: ', cities[j]);
+		console.log('Their guess is: ', citiesGuess, '| current array element ', cities[j]);
 	
-// 		if (citiesGuess === cities[i]){
-// 			alert('You guessed right!');
-// 		break;
-// 	}
+		if (citiesGuess.toLowerCase() === cities[j]) {
+			alert('You guessed right!');
+		break;
+		}
+		}
+	}
+		if (i = cities.length){
+		alert('Here are the answers:' + cities[i]);
+		
+	}
 	
-// 		if (i = cities.length - 1){
-// 		alert('Nope, guess again!');
-// 		}
-// 	}
-	
-// }
-// 		alert(cities[i]);
+
 
 // STRETCH GOALS Creating arrays for the questions, answers and respones
 
