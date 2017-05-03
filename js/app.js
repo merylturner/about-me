@@ -46,18 +46,38 @@
 // }
 // console.log('5th Question: ' + coding.toUpperCase());
 
-var num = 8;
+//User is prompted to answer the question 'what is my favorite number' with four guesses
+for (var i = 0; i < 4; i++) {
 var guess = prompt('What is my favorite number?');
-
-for (var i = 0; i < 3; i++) {
-	if (guess > num) {
-		alert('Too high. Guess again!');
-		console.log(guess[i]);
+	if (guess === 8) {
+		alert('You are correct!');
 		break;
 	}
+	else if (guess > 8) {
+		alert('Too high. Guess again!');
+		console.log(guess);
+	}
 	else {
-		prompt('Too low. Guess again!');
-		console.log(guess[i]);
+		alert('Too low. Try again.');
+		console.log(guess);
+	}
+}
+
+var cities = ['Portland', 'Bend', 'Redlands']; //cities.length 3
+
+//TODO check if citiesGuesses matches one of the elements in the cities array
+for (i = 0; i < 6; i++) {
+	citiesGuess = prompt('What cities have I lived in? There are multiple correct answers. You have six guesses. Good luck!');
+
+	for (i = 0; i < cities.length; i++){
+		console.log('Their guess is: ', citiesGuess);
+	
+	if (citiesGuess === cities[i]){
+		alert('You guessed right!');
+	}
+	else {
+		alert('Guess again!');
+	}
 	}
 }
 
