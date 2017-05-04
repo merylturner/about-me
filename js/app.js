@@ -11,7 +11,7 @@ function nameFunc() {
         totalAnswers++;
     }
     else {
-        alert('No, my name is Fred.');
+        alert('You don\'t even know me.');
     }
     console.log('1st Question: ' + name.toUpperCase());
 }
@@ -25,7 +25,7 @@ function bornFunc() {
         totalAnswers++;
     }
     else {
-        alert('No, I was not born in Portland, Oregon.');
+        alert('You don\'t know me at all!');
     }
     console.log('2nd Question: ' + born.toLowerCase());
 }
@@ -39,7 +39,7 @@ function outdoorsFunc() {
         totalAnswers++;
     }
     else {
-        alert('No I prefer to stay indoors at all times.');
+        alert('Of course I love the outdoors we live in the PNW!');
     }
     console.log('3rd Question: ' + outdoors.toUpperCase());
 }
@@ -114,23 +114,28 @@ function citiesFunc () {
             console.log('Their guess is: ', citiesGuess, '| current array element ', cities[j]);
 	
             if (citiesGuess.toLowerCase() === cities[j]) {
-                alert('You guessed right!');
+                alert('You got it dude!');
                 correctAnswer = true;
                 totalAnswers++;
                 break;
             }
+            else {
+                alert('Nope, try again!');
+                break;
+            }
         }
         if (correctAnswer === true) {
-            alert('You guessed right! Here are the answers: ' + cities[0] + ' ' + cities[1] + ' ' + cities[2]);
+            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
             break;
         }
         if (i === 6){
-            alert('Here are the answers:' + cities[0] + ' ' + cities[1]+ ' ' + cities[2]);
+            alert('Aww sorry you are out of guesses. The cities I have lived in are : ' + cities[0] + ' ' + cities[1]+ ' and ' + cities[2]);
         }
     }
 }
 
 citiesFunc();
 
-var answerMessage = alert('You got '+ totalAnswers + ' out of 7 questions right!');
+var userName = prompt('Hey, we\'ve gotten to know each other pretty well - what\'s your name?');
+var answerMessage = alert('This was fun, you got '+ totalAnswers + ' out of 7 questions right! Well done ' + userName + '!');
 	
