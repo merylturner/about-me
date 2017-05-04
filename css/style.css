@@ -7,15 +7,26 @@ h1 {
     color:white;
     background-color: black;
     text-align: center;
-    padding: 10px;
+    padding: 60px;
+  
 }
-.container {
+/*.container {
   position: relative;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box; }*/
+
+.aboutme {
+    border: 1px solid lightblue;
+    color: lightblue;
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
 .questions {
     font-family: inherit;
     font-size: 20px;
@@ -26,25 +37,51 @@ h1 {
     display: block;
     margin: 100px;
     padding: 50px;
-    /*display: inline;*/
+    border-radius: 10px;
 }
 
 p:first-child {
     color: black;
     font-weight: bold;
 }
-.lists {
+.list1 {
     font-family: inherit;
     font-size: 20px;
     text-align: left;
     color: white;
     background-color: lightseagreen;
     margin: 100px;
-    padding: 50px;  
+    padding: 50px; 
+    border-radius: 10px;
+     }
 
+.skills {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    background-color:goldenrod;
+    margin: 100px;
+    padding: 50px; 
+    border-radius: 10px;
 }
 h3 {
     font-style: bold;
     color: white;
     width: 100px;
+    border-radius: 10px;
+}
+
+.navigate {
+    text-align: center;
+    float: center;
+    /*position: relative;*/
+    /*width: 900px;*/
+    margin: 0 auto;
+    /*display: inline;*/
+    /*padding-top: 60px;
+    padding-left: 60px;*/
+}
+.navdiv {
+    display: block;
 }
