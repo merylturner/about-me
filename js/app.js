@@ -94,7 +94,7 @@ for (var i = 0; i < 6; i++) {
 		}
 	}
 	if (correctAnswer === true) {
-			alert('You guessed right! Here are the answers: ' + cities[0] + cities[1] + cities[2]);
+			alert('You guessed right! Here are the answers: ' + cities[0] + ' ' + cities[1] + ' ' + cities[2]);
 			break;
 		}
 	if (i === 6){
@@ -103,5 +103,5 @@ for (var i = 0; i < 6; i++) {
 }
 
 
-var answerMessage = alert('You got '+ totalAnswers + ' out of 7 questions right!')
+var answerMessage = alert('You got '+ totalAnswers + ' out of 7 questions right!');
 	
