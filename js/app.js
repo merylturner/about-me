@@ -129,7 +129,7 @@ function citiesFunc () {
             break;
         }
         if (correctAnswer === true && i === 6) {
-            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
+            alert('Well done, you are so awesome. I have ved in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
             break;
         }
         if (i === 6){
