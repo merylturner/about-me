@@ -128,6 +128,10 @@ function citiesFunc () {
             alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
             break;
         }
+        if (correctAnswer === true && i === 6) {
+            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
+            break;
+        }
         if (i === 6){
             alert('Aww sorry you are out of guesses. The cities I have lived in are : ' + cities[0] + ' ' + cities[1]+ ' and ' + cities[2]);
         }
