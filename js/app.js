@@ -101,7 +101,7 @@ function faveNum() {
 
 
 function citiesFunc () {
-	var cities = ['PORTLAND', 'BEND', 'REDLANDS']; //cities.length 3
+	var cities = ['PORTLAND', 'BEND', 'REDLANDS', 'CAPE TOWN']; //cities.length 3
 
 // TODO check if citiesGuesses matches one of the elements in the cities array
 	for (var i = 0; i < 6; i++) {
@@ -123,15 +123,15 @@ function citiesFunc () {
             }
         }
         if (correctAnswer === true) {
-            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
+            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2] + ' and ' + cities[3]);
             break;
         }
         if (correctAnswer === true && i === 6) {
-            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
+            alert('Well done, you are so awesome. I have lived in ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2] + ' and ' + cities[3]);
             break;
         }
         if (i === 6) {
-            alert('Aww sorry you are out of guesses. The cities I have lived in are : ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2]);
+            alert('Aww sorry you are out of guesses. The cities I have lived in are : ' + cities[0] + ' ' + cities[1] + ' and ' + cities[2] + ' and ' + cities[3]);
         }
 }
 }
