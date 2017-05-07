@@ -2,6 +2,7 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    letter-spacing: 1 em;
 }
 .header {
     font-family: inherit;
@@ -11,26 +12,8 @@ body {
     text-align: center;
     padding: 60px;
     letter-spacing: 8px;
-  
 }
-/*.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }*/
 
-.aboutme {
-    border: 1px solid lightblue;
-    color: lightblue;
-    text-align: center;
-    margin: 100px;
-    margin-top: 50px;
-    padding: 50px;
-    font-size: 20px;
-    border-radius: 10px;
-}
 .questions {
     font-family: inherit;
     font-size: 20px;
@@ -43,11 +26,6 @@ body {
     padding: 50px;
     border-radius: 10px;
 }
-
-p:first-child {
-    color: black;
-    font-weight: bold;
-}
 .list1 {
     font-family: inherit;
     font-size: 20px;
@@ -57,7 +35,7 @@ p:first-child {
     margin: 100px;
     padding: 50px; 
     border-radius: 10px;
-     }
+}
 
 .skills {
     font-family: inherit;
@@ -97,3 +75,69 @@ h3 {
     text-align: center;
     text-decoration: none;
 }
+
+/*.footer {
+    font-family: inherit;
+    font-size: 12px;
+    color:lightblue;
+    text-align: center;
+}*/
+footer > a {
+    font-family: inherit;
+    font-size: 14px;
+    color:black;
+    font-weight: bold;
+    width: 100px;
+    float: center;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+.aboutme {
+    border: 1px solid lightblue;
+    color: lightblue;
+    text-align: center;
+    margin: 100px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.education {
+    font-family: inherit;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    background-color:#ff4040;
+    margin: 100px;
+    padding: 50px; 
+    border-radius: 10px;
+}
+h5 {
+    font-size: 18px;
+}
+
+.questions ol li {
+    font-size: 15px;
+    color: white;
+}
+.questions ol p {
+    font-size: 12px;
+    color: #25567b;
+    text-indent: 25px;
+}
+.list1 ul li, .skills ul li {
+    font-size: 18px;
+    color: white;
+}
+.education ul ul li {
+   font-size: 12px;
+    color: #a60000;
+    text-indent: 25px; 
+}
+/*.skills ul li {
+    font-size: 15px;
+    color: white;
+}*/
